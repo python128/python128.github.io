@@ -9,9 +9,32 @@
   <head>
     <title> Chandra Shekhar Azad </title>
   </head>
-  <body style="background-color:#0f0f0f; color:white;">
+
+  <style>
+        button{
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+        }
+  </style>
+
+  <script>
+        function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark");
+        }
+  </script>
+  
+  <body>
     <h1 style="text-align:center;"> Chandrashekhar Azad </h1>
     <h5 style="text-align:center;"> <i> Birth: 23/7/1906 | Death: 27/2/1931 </i> </h5>
+    <button onclick="myFunction()"> Switch colors </button>
     <p style="text-align:right"> <i> Chandrashekhar Azad: </i></p>
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Chandrasekhar_Azad.jpg" style="border: 1px solid #000; max-width:364px; max-height:364px;" align="right"> <br>
     <p style="font-size:19"> Chandrashekhar Azad(Original:<i> Chandrashekhar Tiwari</i>) was an Indian revelutionary who organized and led a band of militant youth during India's independence movement.
