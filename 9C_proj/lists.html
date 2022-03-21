@@ -1,0 +1,111 @@
+<!-- 18/3/22
+  - Lists
+  - Ordered lists
+  - Unordered lists
+-->
+
+<html>
+  <head>
+    <title> Lists </title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      li {
+        font-size: 18px;
+      }
+      h4 {
+        font-size: 20px;
+        font-weight: normal;
+      }
+      h2 {
+        font-size: 28px;
+      }
+
+      button{
+          cursor: pointer;
+          border: 1px solid #555;
+          text-align: center;
+          padding: 5px;
+          margin-left: 8px;
+      }
+      .dark{
+          background-color: #2e2e2e;
+          color: #e6e6e6;
+      }
+    </style>
+
+    <script>
+      function switchColor() {
+        var element = document.body;
+        element.classList.toggle("dark");
+      }
+    </script>
+  </head>
+  
+  <body>
+    <h1> Lists in HTML </h1>
+    <hr>
+    <button onclick="switchColor()"> Switch Color </button>
+    <hr>
+    <h2> Ordered Lists </h2>
+    <h4> Portions for Maths: </h4>
+    <ol> 
+      <li> Number Systems(last 2 exercises) </li>
+      <li> Polynomials </li>
+      <li> Linear Equations in Two Variables </li>
+      <li> Quadrilaterals </li>
+      <li> Circles </li>
+      <li> Constructions </li>
+      <li> Surface Areas and Volumes </li>
+      <li> Probability </li>
+    </ol>
+    
+    <hr>
+    <h2> Unordered Lists </h2>
+    <h4> Portions for English: </h4>
+    <ul>
+      <li> Packing </li>
+      <li> No Men are Foreign </li>
+      <li> On Killing a Tree </li>
+      <li> The Snake Trying </li>
+      <li> Weathering the Storm in Ersama </li>
+      <li> Reach for the Top </li>
+      <li> The Bond of Love </li>
+      <li> The Last Leaf </li>
+      <li> A House is not a Home </li>
+      <li> The Beggar </li>
+      <li> If I Were You </li>
+    </ul>
+    <hr>
+    
+    <h2> Nested Lists </h2>
+    <h4> Portions for Social: </h4>
+    <ol>
+      <li> History: </li>
+      <ul>
+        <li> Socialism in Europe and the Russian Revolution </li>
+        <li> Nazism and the Rise of Hitler </li>
+      </ul>
+      <li> Geography: </li>
+      <ul>
+        <li> Climate </li>
+        <li> Natural Vegetation and Wildlife </li>
+      </ul>
+      <li> Civics: </li>
+      <ul>
+        <li> Electoral Politics </li>
+        <li> Working of Institutions </li>
+      </ul>
+      <li> Economics: </li>
+      <ul>
+        <li> People as a Resource </li>
+      </ul>
+    </ol>
+    <hr>
+    
+    <a style="color: green;" href="https://github.com/python128/python128.github.io/9C_proj/lists.html"> Source </a>
+
+  </body>
+</html>
+
