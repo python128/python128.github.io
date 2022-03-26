@@ -1,0 +1,28 @@
+/* Styles for all pages */
+
+/* Defaults */
+h1 {
+  text-align: center;
+}
+
+a {
+  color: orange;
+}
+
+p {
+  font-size: 19;
+}
+
+/* Buttons */
+button{
+  cursor: pointer;
+  border: 1px solid #555;
+  text-align: center;
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.dark{
+  background-color: #2f2f2f;
+  color: #e0e0e0;
+}

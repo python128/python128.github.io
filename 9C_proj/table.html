@@ -1,0 +1,112 @@
+<!-- 19/3/22 
+ - Tables
+ - Rowspan
+ - Columnspan
+ - th, td, tr
+ - BGcolor of tables
+ - Marquee
+-->
+
+<html>
+  <head>
+    <title> Tables </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="button.js"></script>
+		<style>
+			table {
+				font-size: 28px;
+			}
+			td {
+				text-align: center;
+				height: 60px;
+				width: 80px;
+			}
+			th {
+				width: 50px;
+			}
+		</style>
+  </head>
+
+  <body>
+    <h1> Time Table </h1>
+    <hr>
+    <button onclick="switchColor()" style="display:table;margin: 0 auto;">Switch Color</button>
+		<marquee style="background-color:yellow;"> IX C Class Time Table </marquee>
+    <hr>
+	<table border=2 cellspacing=0>
+		<tr>
+			<th>Days</th>
+			<th>1</th>
+			<th>2</th>
+			<th rowspan=7>S<br>h<br>o<br>r<br>t<br><br>b<br>r<br>e<br>a<br>k</th>
+			<th>3</th>
+			<th>4</th>
+			<th rowspan=7>L<br>u<br>n<br>c<br>h<br><br>b<br>r<br>e<br>a<br>k</th>
+			<th>5</th>
+			<th>6</th>
+			<th>7</th>
+		</tr>
+		<tr>
+			<td>Monday</td>
+			<td>KL</td>
+			<td>PN</td>
+			<td>II lang</td>
+			<td>RK</td>
+			<td>SUPW</td>
+			<td>VKS</td>
+			<td>TNL</td>
+		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td>RK</td>
+			<td>KS</td>
+			<td>KL</td>
+			<td>TNL</td>
+			<td>VKS</td>
+			<td>KA</td>
+			<td>II lang</td>
+		</tr>
+		<tr>
+			<td>Wednesday</td>
+			<td>KS</td>
+			<td>II lang</td>
+			<td>RK</td>
+			<td>KVU</td>
+			<td>KL</td>
+			<td>KA</td>
+			<td>LIB</td>
+		</tr>
+		<tr>
+			<td>Thursday</td>
+			<td>MPT</td>
+			<td>RK</td>
+			<td>KL</td>
+			<td>PN</td>
+			<td>VKS</td>
+			<td>II lang</td>
+			<td>KVU</td>
+		</tr>
+		<tr>
+			<td>Friday</td>
+			<td>II lang</td>
+			<td>VKS</td>
+			<td>CS</td>
+			<td>KA</td>
+			<td>RK</td>
+			<td>TNL</td>
+			<td>PN</td>
+		</tr>
+		<tr>
+			<td>Saturday</td>
+			<td>KA</td>
+			<td>TNL</td>
+			<td>PT</td>
+			<td>KS</td>
+			<td>KA</td>
+			<td>TNL</td>
+			<td>PT</td>
+		</tr>
+	</table>
+
+  </body>
+</html>
