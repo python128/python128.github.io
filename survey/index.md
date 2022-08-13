@@ -19,23 +19,23 @@
 
 ## Questions:
 
-1. Do you examine the expiry date before a purchase?
+1. Do you examine the expiry date before a purchase?   
     [Y]es [N]o
 
-2. Have you ever cross-checked the weights of the products after a purchase?
+2. Have you ever cross-checked the weights of the products after a purchase?   
     [Y]es [N]o
 
-3. Do you check the prices of goods you buy from other sources?
+3. Do you check the prices of goods you buy from other sources?   
     [Y]es [N]o
 
-4. Do you check the MRP(Maximum Retail Price) before a purchase?
+4. Do you check the MRP(Maximum Retail Price) before a purchase?   
     [Y]es [N]o
 
-5. Have you ever come across adulteration in a product you purchased?
+5. Have you ever come across adulteration in a product you purchased?   
     [Y]es [N]o
     
-6. Do you ask for the bill when you purchase a product?
+6. Do you ask for the bill when you purchase a product?   
     [Y]es [N]o
 
 
-> Several questions from this [link](http://www.pggc46.ac.in/images/Consumer%20Awareness%20in%20India.pdf). 
+> Several questions from this [link](http://www.pggc46.ac.in/images/Consumer%20Awareness%20in%20India.pdf). Page 16.
