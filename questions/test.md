@@ -1,6 +1,6 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-#### Q1. A metal ring of mass M and radius R is set rotating about an exis going through the diameter. The experiment is conducted in space at an infinite distance. Its angualar velocity is $\omega$. Find tension as a function on angle $\theta$ from horizontal.
+#### Q1. A metal ring of mass M and radius R is set rotating about an exis going through the diameter. The experiment is conducted in space at an infinite distance. Its angualar velocity is $$\omega$$. Find tension as a function on angle $$\theta$$ from horizontal.
 Solution: 
 Let tension be T.
 Free Body diagram for elementary section of ring.
@@ -21,7 +21,7 @@ Simplifying (2),
 
 $$Tcos\theta d \theta + dT sin \theta = \frac{MR\omega^2}{2\pi} cos \theta d \theta \tag2$$
 
-Let $$T_0 = \frac{MR\omega^2}{2\pi}$$
+Let  $$T_0 = \frac{MR\omega^2}{2\pi}$$
 
 Substituting (1) in (2), we get
 
