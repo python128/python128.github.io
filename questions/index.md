@@ -14,3 +14,5 @@ description: Some interesting physics questions that test your intuitiveness.
 3. Consider a 3D shape whose left end has radius $$1$$m. The shape is circular, with its radius increasing continually as $$r = a^x$$, $$a \in \mathbb{R^+}$$. Assume forces to be acting in the centre of the side (circular) faces on both sides. Consider it to have Young's modulus $$Y$$. Find elongation $$\Delta L$$. [Solution](https://python128.github.io/questions/3)
    
 4. Consider the previous 3D shape. Assume the function to be $$r = e^x$$. This shape is rotated with constant angular velocity $$\omega$$ about the axis touching the smaller end. Find elongation $$\Delta L$$. [Solution](https://python128.github.io/questions/4)
+5. A frustum is made with inner radius $$a_1$$ and outer radius $$a_2$$ on the short end, and radii $$b_1$$ and $$b_2$$ on the larger side. Find the net thermal resistance offered by the hollow frustum if its total length is $$L$$ and thermal conductivity is $$K$$.
+
