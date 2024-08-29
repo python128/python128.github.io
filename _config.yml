@@ -1,6 +1,9 @@
-remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: jekyll/minima
 plugins:
 - jekyll-remote-theme
+
+minima:
+  skin: auto
 
 title: python128
 description: My Website
