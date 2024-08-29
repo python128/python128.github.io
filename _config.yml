@@ -1,9 +1,4 @@
-remote_theme: jekyll/minima
-plugins:
-- jekyll-remote-theme
-
-minima:
-  skin: auto
+remote_theme: "dracula/gh-pages"
 
 title: python128
-description: My Website
+description: 
